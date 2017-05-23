@@ -1,0 +1,1 @@
+# ios-xlsx2localizablestrings
