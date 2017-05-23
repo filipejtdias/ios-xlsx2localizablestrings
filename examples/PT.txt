@@ -1,0 +1,33 @@
+/*
+    Localizable.strings
+    PT
+
+    Created by https://github.com/filipejtdias/ios-xlsx2localizablestrings
+    Modified by filipedias on 2017-05-23.
+*/
+
+
+// Overall
+
+"KEY_OK" = "Ok";
+"KEY_CANCEL" = "Cancelar";
+
+// Login
+
+"KEY_LOGIN_TOUCHID" = "Iniciar sessão com TouchID";
+"KEY_LOGIN_PIN" = "Iniciar sessão com PIN";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
