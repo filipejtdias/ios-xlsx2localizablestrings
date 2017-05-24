@@ -15,6 +15,7 @@ A simple way to convert your Excel files to Localizable.strings files
 
 - [x] Convert **.xlsx** files to **.txt** files (just copy-paste the output of each **.txt** file to the respective **Localizable.strings** file)
 - [x] Support for multiple **.xlsx** files (default language included)
+- [x] Templates provided (in *examples* folder)
 - [x] Support sections
 - [ ] Support notes
 - [ ] Specify folder path of all **.xlsx** files
@@ -44,6 +45,11 @@ Steps to update your **Localizable.strings** files:
 ```
 3. Open each **.txt** file and copy-paste all content into respective **Localizable.strings** file.
 4. Enjoy!
+
+## Examples
+*examples* folder is provided with two *.xlsx* templates.
+- EN.xlsx is for the default language (translation not needed)
+- PT.xlsx will contain the **EN** translation and **PT** translation
 
 ## Troubleshooting
 - To prevent convert issues, please make sure that you don't have any **.xlsx** file opened!
