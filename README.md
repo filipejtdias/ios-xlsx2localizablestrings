@@ -6,6 +6,7 @@ A simple way to convert your Excel files to Localizable.strings files
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Examples](#examples)
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
 - [License](#license)
