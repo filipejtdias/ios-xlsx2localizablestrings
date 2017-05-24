@@ -4,7 +4,7 @@ A simple way to convert your Excel files to Localizable.strings files
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [FAQ](#faq)
+- [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
 - [License](#license)
 
@@ -29,5 +29,17 @@ A simple way to convert your Excel files to Localizable.strings files
 - Open up Terminal and clone the git repository:
 
 ```bash
-$ git clone git@github.com:filipejtdias/ios-xlsx2localizablestrings.git
+   $ git clone https://github.com/filipejtdias/ios-xlsx2localizablestrings.git
 ```
+## Usage
+
+## Troubleshooting
+
+## Credits
+
+This repository is owned and maintained by [Filipe Dias](https://www.linkedin.com/in/filipejtdias/).    
+Special thanks to [Brendan O'Connor](https://github.com/brendano) for *tsvutils*.
+
+## License
+
+This repository is released under the MIT license. [See LICENSE](https://github.com/filipejtdias/ios-xlsx2localizablestrings/blob/master/LICENSE) for details.
