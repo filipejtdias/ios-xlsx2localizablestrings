@@ -1,6 +1,6 @@
 #!/bin/bash
 
-EXCLUDE_KEY="Translated String"
+EXCLUDE_KEYS="Translated String|Unstranslated string|Key does not exist|Changed original string"
 
 # For each Translation File (.xlsx)
 for file in *.xlsx; do
@@ -41,7 +41,7 @@ for file in *.xlsx; do
 	MODIFIED_DATE_USER="Modified by $(whoami) on $(date +%Y-%m-%d)."
 
 	printf "/*\n    ${FILENAME}\n\n    ${GITHUB_URL}\n    ${MODIFIED_DATE_USER}\n*/\n\n" > "$LOCALIZABLE_FILE"
-	echo "$CONTENT" | grep -v "$EXCLUDE_KEY" | grep -v -e "^//\s*$" >> "$LOCALIZABLE_FILE"
+	echo "$CONTENT" | egrep -v "$EXCLUDE_KEYS" | grep -v -e "^//\s*$" >> "$LOCALIZABLE_FILE"
 
 	# Remove temporary file
 	rm -rf "$TEMP_FILE"
