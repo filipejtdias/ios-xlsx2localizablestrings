@@ -43,6 +43,12 @@ for file in *.xlsx; do
 	printf "/*\n    ${FILENAME}\n\n    ${GITHUB_URL}\n    ${MODIFIED_DATE_USER}\n*/\n\n" > "$LOCALIZABLE_FILE"
 	echo "$CONTENT" | egrep -v "$EXCLUDE_KEYS" | grep -v -e "^//\s*$" >> "$LOCALIZABLE_FILE"
 
+	# remove all \n
+	printf %s "$(cat $LOCALIZABLE_FILE)" > "$LOCALIZABLE_FILE" 
+
+	# Add final \n
+	printf "\n" >> "$LOCALIZABLE_FILE"
+
 	# Remove temporary file
 	rm -rf "$TEMP_FILE"
 done
